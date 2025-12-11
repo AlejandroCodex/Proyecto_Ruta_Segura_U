@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RutaSegura U - Seguridad Universitaria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-geo-alt-fill"></i> RutaSegura U
+            </a>
+        </div>
+    </nav>
+
+    <header class="hero-section d-flex align-items-center text-center text-white">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-3">Tu seguridad, nuestra prioridad</h1>
+            <p class="lead mb-4">Monitoreo en tiempo real y alertas comunitarias para estudiantes universitarios.</p>
+            <a href="#descarga" class="btn btn-accent btn-lg px-5 rounded-pill shadow">
+                <i class="bi bi-android2"></i> Descargar App
+            </a>
+        </div>
+    </header>
+
+    <section class="py-5 bg-light" id="objetivos">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-dark">Nuestros Objetivos</h2>
+                <p class="text-muted">¿Por qué creamos RutaSegura U?</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3">
+                        <div class="card-body text-center">
+                            <div class="icon-box mb-3 text-primary">
+                                <i class="bi bi-shield-check display-5"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Prevención</h5>
+                            <p class="card-text text-muted">Reducir el índice de inseguridad en zonas universitarias mediante alertas tempranas de robos y zonas oscuras.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3">
+                        <div class="card-body text-center">
+                            <div class="icon-box mb-3 text-warning">
+                                <i class="bi bi-exclamation-triangle-fill display-5"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Información Real</h5>
+                            <p class="card-text text-muted">Mantener a la comunidad informada sobre bloqueos, marchas y jaurías de perros con actualizaciones en vivo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3">
+                        <div class="card-body text-center">
+                            <div class="icon-box mb-3 text-success">
+                                <i class="bi bi-people-fill display-5"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Comunidad</h5>
+                            <p class="card-text text-muted">Fomentar la colaboración entre estudiantes para crear rutas de tránsito seguro hacia la universidad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-dark">¿Cómo funciona el Mapa?</h2>
+                <p class="text-muted">Conoce nuestros indicadores de seguridad y sus tiempos de vigencia.</p>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-3 mb-4">
+                    <div class="p-4 border rounded-3 bg-white shadow-sm">
+                        <h1 class="text-danger mb-3">🔴</h1>
+                        <h5 class="fw-bold">Robo / Asalto</h5>
+                        <p class="small text-muted">Zonas de alto peligro. Reporte permanente para historial delictivo.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="p-4 border rounded-3 bg-white shadow-sm">
+                        <h1 class="text-warning mb-3">🟠</h1>
+                        <h5 class="fw-bold">Bloqueo / Marcha</h5>
+                        <p class="small text-muted">Interrupción de vías. Caduca automáticamente en <strong>2 horas</strong>.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="p-4 border rounded-3 bg-white shadow-sm">
+                        <h1 class="text-dark mb-3">⚫</h1>
+                        <h5 class="fw-bold">Zona Oscura</h5>
+                        <p class="small text-muted">Falta de alumbrado público. Alerta permanente por seguridad.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="p-4 border rounded-3 bg-white shadow-sm">
+                        <h1 class="text-secondary mb-3">🟡</h1> <h5 class="fw-bold">Jauría de Perros</h5>
+                        <p class="small text-muted">Animales agresivos. Caduca en <strong>30 minutos</strong> por movilidad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Interfaz Intuitiva</h2>
+                <p class="text-muted">Diseñada para actuar rápido en situaciones de emergencia.</p>
+            </div>
+
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-3 mb-3">
+                    <div class="card border-0 shadow-lg overflow-hidden">
+                        <img src="img/captura1.jpg" class="card-img-top" alt="Pantalla de Bienvenida">
+                        <div class="card-body text-center bg-white">
+                            <h6 class="fw-bold mb-0">Acceso Seguro</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <div class="card border-0 shadow-lg overflow-hidden" style="transform: scale(1.1); z-index: 10;">
+                        <img src="img/captura2.jpg" class="card-img-top" alt="Mapa Principal en Vivo">
+                        <div class="card-body text-center bg-white">
+                            <h6 class="fw-bold mb-0">Mapa en Vivo</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <div class="card border-0 shadow-lg overflow-hidden">
+                        <img src="img/captura3.jpg" class="card-img-top" alt="Menú de Reportes">
+                        <div class="card-body text-center bg-white">
+                            <h6 class="fw-bold mb-0">Reporte Ágil</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 text-center" id="descarga">
+        <div class="container">
+            <div class="card bg-dark text-white p-5 rounded-4 shadow">
+                <h2 class="fw-bold mb-3">¡Pruébala ahora!</h2>
+                <p class="mb-4">Descarga el APK instalable para dispositivos Android y únete a la red.</p>
+                
+                <div>
+                    <a href="descargas/RutaSeguraU.apk" class="btn btn-success btn-lg px-5 rounded-pill mb-4" download>
+                        <i class="bi bi-download"></i> Descargar APK (v1.0)
+                    </a>
+                </div>
+
+                <div class="alert alert-secondary d-inline-block text-start p-3 rounded-3" style="max-width: 500px; margin: 0 auto;">
+                    <h6 class="fw-bold"><i class="bi bi-info-circle"></i> ¿Cómo instalar?</h6>
+                    <ol class="small mb-0 ps-3">
+                        <li>Descarga el archivo.</li>
+                        <li>Si aparece "Archivo dañino", pulsa <strong>Descargar de todos modos</strong>.</li>
+                        <li>Al abrir, si pide permisos, activa <strong>"Instalar aplicaciones desconocidas"</strong> o <strong>"Orígenes desconocidos"</strong>.</li>
+                        <li>Pulsa Instalar y activa tu GPS.</li>
+                    </ol>
+                </div>
+
+                <small class="d-block mt-3 text-white-50">*Requiere Android 7.0 o superior</small>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-4 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center text-center">
+                <div class="col-md-3 mb-2">
+                    <h5 class="mb-0 fw-bold">Tecnologías:</h5>
+                </div>
+                <div class="col-md-9 d-flex justify-content-center justify-content-md-start flex-wrap gap-2">
+                    <span class="badge bg-light text-dark border"><i class="bi bi-android2"></i> Android Studio</span>
+                    <span class="badge bg-light text-dark border"><i class="bi bi-code-slash"></i> Kotlin</span>
+                    <span class="badge bg-light text-dark border"><i class="bi bi-database-fill"></i> Firebase Realtime</span>
+                    <span class="badge bg-light text-dark border"><i class="bi bi-map-fill"></i> OSMDroid</span>
+                    <span class="badge bg-light text-dark border"><i class="bi bi-git"></i> GitHub</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-primary text-white text-center py-3">
+        <p class="mb-0 small">&copy; 2025 RutaSegura U - Proyecto Universitario</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
